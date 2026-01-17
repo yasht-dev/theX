@@ -1,0 +1,30 @@
+[
+    {
+        "image": "img/project/ss.png",
+        "type1": "desgin",
+        "type2": "clone",
+        "title": "First Pick Relocation"
+  
+    },
+    {
+        "image": "img/project/food.png",
+         "type1": "develop",
+        "type2": "clone",
+        "title": "Food delivery"
+
+    },
+    {
+        "image": "img/project/portfolio.png",
+         "type1": "desgin",
+        "type2": "develop",
+        "title": "Second Project"
+
+    },
+    {
+        "image": "img/project/ss.png",
+         "type1": "desgin",
+        "type2": "clone",
+        "title": "Second Project",
+        "description": "Another project description here."  
+      }
+]
