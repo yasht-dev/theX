@@ -1,0 +1,440 @@
+@font-face {
+    font-family: cyberjunkies;
+    src: url(assi/CyberjunkiesItalic.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Nunito;
+}
+
+
+/* basic */
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.between {
+    justify-content: space-around;
+}
+
+.p-top {
+    padding-top: 3rem;
+}
+
+
+
+
+/* header */
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #111926, #042d3a, #004243, #27563f, #576637);
+}
+
+header nav .logo img {
+    width: 150px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    font-size: 20px;
+    transition: .8s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #00ff8c;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav {
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .desktop .hamburger {
+    font-size: 1.5rem;
+    display: none;
+}
+
+
+nav .desktop a {
+    list-style: none;
+    text-decoration: none;
+    color: #00ff8c;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+/* mobile-nav */
+.mobile-nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+.mobile-nav {
+    text-align: left;
+    background-color: #004243;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 90vh;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    transition: 5s ease-out;
+}
+
+
+
+.mobile-nav li a {
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    font-size: 20px;
+    color: white;
+}
+
+
+/* hero */
+
+header .hero {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+header .hero h1 {
+    font-size: 40px;
+}
+
+header .hero span {
+    color: #00ff8c;
+    font-family: cyberjunkies;
+    font-weight: 100;
+}
+
+header .hero p {
+    color: rgb(176, 176, 176);
+    padding-top: .8rem;
+}
+
+header .hero-btn .btn {
+    background-color: #00ff8c;
+    color: #111926;
+    padding: 3px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+header .hero-btn {
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+header .hero-btn i {
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+
+
+/* selection1 */
+
+/* selection1 */
+
+section .services .btn {
+    border-radius: 10px;
+    padding: 3px;
+    width: 90px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    border: 1px solid #00ff8c;
+    background-color: #00ff8c1e;
+}
+
+section .services {
+    padding: 40px;
+
+}
+
+section .service-text {
+    justify-content: space-around;
+    line-height: 2;
+}
+
+section .service-text .s-text ul li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.533);
+}
+
+section .service-text .s-text ul li i {
+    color: #00ff8c;
+}
+
+section .service-text .s-text {
+    min-width: 300px;                                                                       
+    border: 1px solid #08e98483;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 1rem;
+    transition: 1s;
+}
+section .service-text .s-text:hover{
+    background-color: rgba(128, 128, 128, 0.159);
+}
+
+/* section2 */
+section .benifit {
+    padding: 40px;
+
+}
+
+section .benifit {
+    padding: 10px;
+    margin: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section .benifit .s2-benifit {
+    background-color: rgba(218, 218, 218, 0.066);
+    padding: 10px;
+    margin: 3px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section .benifit .s2-benifit h3 {
+    font-weight: 400;
+}
+
+section .benifit .s2-benifit p {
+    font-size: 12px;
+    color: rgba(236, 236, 236, 0.425);
+}
+
+section .benifit .s2-benifit .fa-solid {
+    color: #00ff8c;
+}
+
+/* section3 */
+
+
+section .projects .project {
+    padding: 20px;
+}
+
+section .projects .project img {
+    width: 40rem;
+    border-radius: 1rem;
+}
+
+section .projects .project h3 {
+    font-size: 20px;
+    margin-top: 0.8rem;
+}
+
+section .projects .project a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.647);
+    background-color: rgba(230, 230, 230, 0.149);
+    border: 0.1px solid #00ff8c18;
+    padding: 2px 5px 2px 5px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+/* Sction4 */
+
+section .tgs button {
+    color: black;
+    background-color: #00ff8c;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+section .tgs {
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* section5 */
+
+.contact-f {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-f .inp {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    color: #666;
+    padding-left: 25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.13);
+
+}
+
+.contact-f {
+    width: 350px;
+
+}
+
+.contact-f textarea {
+    padding-top: 10px;
+}
+
+.contact-f button {
+    background-color: #00ff8c;
+    color: #111926;
+    padding: 3px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contact .cont-text {
+    width: 300px;
+}
+
+.contact .cont-text img {
+    width: 150px;
+}
+
+.contact .cont-text p {
+    color: rgba(185, 185, 185, 0.623);
+    padding: 10px 0px 10px 0px;
+}
+
+.contact .cont-text a {
+    font-size: 20px;
+}
+
+.contact {
+    padding-bottom: 50px;
+}
+
+.copyrighte p {
+    text-align: center;
+    color: rgba(208, 208, 208, 0.544);
+    padding: 15px;
+    border-top: 1px solid rgba(190, 190, 190, 0.136);
+    font-weight: 100;
+
+}
+
+
+
+/* mobile css */
+
+@media screen and (max-width:780px) {
+
+    header nav ul li {
+        display: none;
+    }
+
+    nav .desktop .hamburger {
+        display: inline-block;
+    }
+
+
+
+    .mobile-nav-active {
+        display: block;
+    }
+
+header .hero h1 {
+    font-size: 30px;
+}
+
+header .hero p {
+    font-size: 15px;
+}
+
+header .hero {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+section .benifit {
+    gap: 0;
+}
+
+section .benifit .s2-benifit {
+    width: 100px;
+    height: 100px;
+
+}
+
+/* section3 */
+
+section .projects .project img {
+    width: 300px;
+}
+
+section .projects .project h3 {
+    font-size: 15px;
+    margin-top: 0.2rem;
+}
+
+section .tgs {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    gap: 5px;
+}
+.copyrighte p{
+    font-size: 13px;
+}
+}
