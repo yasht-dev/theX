@@ -101,7 +101,7 @@ nav .desktop a {
     height: 90vh;
     padding: 20px;
     margin: auto;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     display: none;
