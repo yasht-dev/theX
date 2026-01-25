@@ -305,9 +305,8 @@ section .tgs {
     margin: 3px;
 }
 
-.containt-post .post {
+.containt-post {
     padding: 10px;
-    width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
